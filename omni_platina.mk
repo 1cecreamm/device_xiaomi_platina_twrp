@@ -20,8 +20,8 @@ PRODUCT_RELEASE_NAME := platina
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
-#$(call inherit-product, vendor/pb/config/common.mk)
+#$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 
 PRODUCT_PROPERTY_OVERRIDES += \
